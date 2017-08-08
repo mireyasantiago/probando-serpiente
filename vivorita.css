@@ -1,12 +1,13 @@
+
+body{
+  background-color:Khaki ;
+}
 #cabezaSerpiente {
   width: 100px;
   height: 100px;
+  border-radius:50%;
   background-color: #580EB4;
   position: absolute;
-
-
-
-
 }
 
 #bloque {
@@ -16,5 +17,37 @@
   border-color: black;
   margin=right: auto;
   margin-left: auto;
+  display: inline-block;
+}
+.imagen{
+  width: 600px;
+  height: 510px;
+  display:inline-block;
+}
 
+/* Area para menu*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
 }

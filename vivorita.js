@@ -1,5 +1,4 @@
-alert("mensaje");
-//
+
 var serpiente= document.getElementById('cabezaSerpiente');
 //definir la posicion  que parte inicilmente de 0 (x,y)
 var posicionX= parseInt(0);
